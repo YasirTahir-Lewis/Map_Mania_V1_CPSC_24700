@@ -12,6 +12,10 @@
     height: 15%;
 }
 
+#gameInfo {
+    height: 15%;
+}
+
 html,
 body {
     height: 100%;

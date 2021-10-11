@@ -47,7 +47,6 @@ function initMap() {
         if (map.getBounds().contains({ lat: 23.4241, lng: 53.8478 })) {
             inBounds = true;
         }
-        inBounds = false;
         console.log("inBounds:" + inBounds + " zoomLevel:" + zoomLevel);
     }
 
