@@ -1,0 +1,27 @@
+<!--
+Author:  Yasir Tahir
+Class:   Web & Distributed Programming
+Project: Map Mania v1
+Session: su18-cpsc-24700-lt1
+Description: This is the first version of Map Mania that I am creating for Programming Assignment 3.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./map-mania.css" />
+    <script src="./map-mania.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="info"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMeEQdsbRV6EEXtWMa_RLo66O0LjddM1E&callback=initMap&v=weekly" async></script>
+</body>
+
+</html>
